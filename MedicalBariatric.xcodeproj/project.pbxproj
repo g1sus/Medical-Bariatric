@@ -416,6 +416,7 @@
 				64163F7C1AAF9DAC00E5E579 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64163F7D1AAF9DAC00E5E579 /* Build configuration list for PBXNativeTarget "MedicalBariatricTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +425,7 @@
 				64163F7F1AAF9DAC00E5E579 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
