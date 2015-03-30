@@ -6,13 +6,13 @@
 //  Copyright (c) 2015 BTICs. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "Presentacion.h"
 
-@interface ViewController ()
+@interface Presentacion ()
 
 @end
 
-@implementation ViewController
+@implementation Presentacion
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -24,4 +24,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)btnnext:(id)sender {
+    [self performSegueWithIdentifier:@"PresToLogin" sender:self];
+}
 @end

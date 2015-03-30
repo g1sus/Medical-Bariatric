@@ -10,11 +10,13 @@
 		64163F5A1AAF9DAC00E5E579 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64163F591AAF9DAC00E5E579 /* main.m */; };
 		64163F5D1AAF9DAC00E5E579 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64163F5C1AAF9DAC00E5E579 /* AppDelegate.m */; };
 		64163F601AAF9DAC00E5E579 /* MedicalBariatric.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 64163F5E1AAF9DAC00E5E579 /* MedicalBariatric.xcdatamodeld */; };
-		64163F631AAF9DAC00E5E579 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64163F621AAF9DAC00E5E579 /* ViewController.m */; };
+		64163F631AAF9DAC00E5E579 /* Presentacion.m in Sources */ = {isa = PBXBuildFile; fileRef = 64163F621AAF9DAC00E5E579 /* Presentacion.m */; };
 		64163F661AAF9DAC00E5E579 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64163F641AAF9DAC00E5E579 /* Main.storyboard */; };
 		64163F681AAF9DAC00E5E579 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64163F671AAF9DAC00E5E579 /* Images.xcassets */; };
 		64163F6B1AAF9DAC00E5E579 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64163F691AAF9DAC00E5E579 /* LaunchScreen.xib */; };
 		64163F771AAF9DAC00E5E579 /* MedicalBariatricTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64163F761AAF9DAC00E5E579 /* MedicalBariatricTests.m */; };
+		6441287C1AC8CABD009C57BD /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 6441287A1AC8CABD009C57BD /* camera.png */; };
+		6441287D1AC8CABD009C57BD /* contactos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6441287B1AC8CABD009C57BD /* contactos.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +36,16 @@
 		64163F5B1AAF9DAC00E5E579 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		64163F5C1AAF9DAC00E5E579 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		64163F5F1AAF9DAC00E5E579 /* MedicalBariatric.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MedicalBariatric.xcdatamodel; sourceTree = "<group>"; };
-		64163F611AAF9DAC00E5E579 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		64163F621AAF9DAC00E5E579 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		64163F611AAF9DAC00E5E579 /* Presentacion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Presentacion.h; sourceTree = "<group>"; };
+		64163F621AAF9DAC00E5E579 /* Presentacion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Presentacion.m; sourceTree = "<group>"; };
 		64163F651AAF9DAC00E5E579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		64163F671AAF9DAC00E5E579 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		64163F6A1AAF9DAC00E5E579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		64163F701AAF9DAC00E5E579 /* MedicalBariatricTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicalBariatricTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64163F751AAF9DAC00E5E579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64163F761AAF9DAC00E5E579 /* MedicalBariatricTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MedicalBariatricTests.m; sourceTree = "<group>"; };
+		6441287A1AC8CABD009C57BD /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		6441287B1AC8CABD009C57BD /* contactos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = contactos.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,7 @@
 		64163F4B1AAF9DAC00E5E579 = {
 			isa = PBXGroup;
 			children = (
+				644128791AC8CABD009C57BD /* Imgs */,
 				64163F561AAF9DAC00E5E579 /* MedicalBariatric */,
 				64163F731AAF9DAC00E5E579 /* MedicalBariatricTests */,
 				64163F551AAF9DAC00E5E579 /* Products */,
@@ -85,8 +90,8 @@
 			children = (
 				64163F5B1AAF9DAC00E5E579 /* AppDelegate.h */,
 				64163F5C1AAF9DAC00E5E579 /* AppDelegate.m */,
-				64163F611AAF9DAC00E5E579 /* ViewController.h */,
-				64163F621AAF9DAC00E5E579 /* ViewController.m */,
+				64163F611AAF9DAC00E5E579 /* Presentacion.h */,
+				64163F621AAF9DAC00E5E579 /* Presentacion.m */,
 				64163F641AAF9DAC00E5E579 /* Main.storyboard */,
 				64163F671AAF9DAC00E5E579 /* Images.xcassets */,
 				64163F691AAF9DAC00E5E579 /* LaunchScreen.xib */,
@@ -120,6 +125,15 @@
 				64163F751AAF9DAC00E5E579 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		644128791AC8CABD009C57BD /* Imgs */ = {
+			isa = PBXGroup;
+			children = (
+				6441287A1AC8CABD009C57BD /* camera.png */,
+				6441287B1AC8CABD009C57BD /* contactos.jpg */,
+			);
+			path = Imgs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,7 +218,9 @@
 			files = (
 				64163F661AAF9DAC00E5E579 /* Main.storyboard in Resources */,
 				64163F6B1AAF9DAC00E5E579 /* LaunchScreen.xib in Resources */,
+				6441287C1AC8CABD009C57BD /* camera.png in Resources */,
 				64163F681AAF9DAC00E5E579 /* Images.xcassets in Resources */,
+				6441287D1AC8CABD009C57BD /* contactos.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +240,7 @@
 			files = (
 				64163F601AAF9DAC00E5E579 /* MedicalBariatric.xcdatamodeld in Sources */,
 				64163F5D1AAF9DAC00E5E579 /* AppDelegate.m in Sources */,
-				64163F631AAF9DAC00E5E579 /* ViewController.m in Sources */,
+				64163F631AAF9DAC00E5E579 /* Presentacion.m in Sources */,
 				64163F5A1AAF9DAC00E5E579 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
